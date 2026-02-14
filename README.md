@@ -3,19 +3,18 @@ Prototipo de robot con control inalámbrico y arquitectura distribuida. Este pro
 ![IMG_20230110_195536](https://github.com/user-attachments/assets/a89144b9-617e-41e8-8161-cb84d37b816e)
 ## 🚀 Características Técnicas
 - **Arquitectura:** Control distribuido con Arduino Nano y Pro Mini.
-- **Actuadores:** Servomotores de alto torque (SG995), motores paso a paso y motorreductores.
+- **Actuadores:** Servomotores de alto torque (SG995) y motorreductores.
 - **Control:** Comunicación inalámbrica mediante Bluetooth HC-06 y App móvil.
 - **Gestión de Energía:** Regulación mediante módulos Step-Down LM2596 para estabilidad del sistema.
 
 ## 🛠️ Tecnologías utilizadas
-- **Hardware:** Arduino, Drivers DRV8833, Sensores [menciona otros si hay].
-- **Software:** Arduino IDE (C++), [Software de simulación usado].
+- **Hardware:** Arduino, Drivers DRV8833.
+- **Software:** Arduino IDE (C++).
 ![IMG_20230111_080845](https://github.com/user-attachments/assets/9ee7d9de-0943-43b7-b041-e289981226ce)
 
 ## 📂 Estructura del Repositorio
-- `/src`: Código fuente de los microcontroladores (Emisor/Receptor).
-- `/docs`: Diagramas de conexión y esquemáticos.
-- `/sim`: Archivos de simulación.
+- `Control_principal-Master.ino` : Contiene codigo del microcontrolador Master.
+-  `Slaver.ino` : Contiene codigo del microcontrolador Slave.
+- `control_mobil.kwl`: Contiene la configuracion del control mediante el mobil(Bluetooth Electronics).
 
-## 📊 Resultados
-El robot logra una autonomía de movimiento en terrenos irregulares gracias a su diseño de tracción oruga y una respuesta en tiempo real a los comandos del joystick.
+
