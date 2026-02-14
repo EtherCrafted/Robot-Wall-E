@@ -1,6 +1,6 @@
 ## 📝 Descripción
 Prototipo de robot con control inalámbrico y arquitectura distribuida. Este proyecto integra el diseño mecánico 3D, el control de potencia y la programación de sistemas embebidos para la gestión de 7 grados de libertad.
-
+![IMG_20230110_195536](https://github.com/user-attachments/assets/a89144b9-617e-41e8-8161-cb84d37b816e)
 ## 🚀 Características Técnicas
 - **Arquitectura:** Control distribuido con Arduino Nano y Pro Mini.
 - **Actuadores:** Servomotores de alto torque (SG995), motores paso a paso y motorreductores.
@@ -10,6 +10,7 @@ Prototipo de robot con control inalámbrico y arquitectura distribuida. Este pro
 ## 🛠️ Tecnologías utilizadas
 - **Hardware:** Arduino, Drivers DRV8833, Sensores [menciona otros si hay].
 - **Software:** Arduino IDE (C++), [Software de simulación usado].
+![IMG_20230111_080845](https://github.com/user-attachments/assets/9ee7d9de-0943-43b7-b041-e289981226ce)
 
 ## 📂 Estructura del Repositorio
 - `/src`: Código fuente de los microcontroladores (Emisor/Receptor).
