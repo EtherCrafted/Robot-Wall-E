@@ -1,0 +1,30 @@
+Keuwlsoft Bluetooth Electronics Panel File
+2026-02-14 18:20:57
+2
+
+*.kwl
+set_grid_size(19,8)
+add_text_box(9,0,3,L,Edad,245,240,245,)
+add_text_box(13,0,3,L,Talla,245,240,245,)
+add_text_box(5,3,3,L,Nro Prueva,245,240,245,)
+add_text_box(9,3,3,L,Fecha ,245,240,245,)
+add_text_box(13,3,3,L,Peso,245,240,245,)
+add_text_box(5,6,3,L,Nombre,245,240,245,)
+add_text_box(5,0,3,L,Sexo,245,240,245,)
+add_button(0,0,25,S,s)
+add_button(0,2,25,C,c)
+add_button(0,4,25,R,r)
+add_button(0,6,25,M,m)
+add_button(17,0,25,P,p)
+add_button(17,2,25,D,d)
+add_button(17,4,25,G,g)
+add_led(3,0,1,n,255,0,0)
+add_led(3,1,1,y,0,0,0)
+add_send_box(9,1,3,40,,)
+add_send_box(13,1,3,145,,)
+add_send_box(5,7,8,Alguien,,)
+add_send_box(5,4,3,1,,)
+add_send_box(9,4,3,190823,,)
+add_send_box(13,4,3,70,,)
+add_send_box(5,1,3,1,,)
+set_panel_notes(,,,)
