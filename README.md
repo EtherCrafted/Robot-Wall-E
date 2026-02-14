@@ -1,2 +1,20 @@
-# Prototipo-Rob-tico-de-Control-Distribuido-e-Inal-mbrico-Wall-E-
+## 📝 Descripción
 Prototipo de robot con control inalámbrico y arquitectura distribuida. Este proyecto integra el diseño mecánico 3D, el control de potencia y la programación de sistemas embebidos para la gestión de 7 grados de libertad.
+
+## 🚀 Características Técnicas
+- **Arquitectura:** Control distribuido con Arduino Nano y Pro Mini.
+- **Actuadores:** Servomotores de alto torque (SG995), motores paso a paso y motorreductores.
+- **Control:** Comunicación inalámbrica mediante Bluetooth HC-06 y App móvil.
+- **Gestión de Energía:** Regulación mediante módulos Step-Down LM2596 para estabilidad del sistema.
+
+## 🛠️ Tecnologías utilizadas
+- **Hardware:** Arduino, Drivers DRV8833, Sensores [menciona otros si hay].
+- **Software:** Arduino IDE (C++), [Software de simulación usado].
+
+## 📂 Estructura del Repositorio
+- `/src`: Código fuente de los microcontroladores (Emisor/Receptor).
+- `/docs`: Diagramas de conexión y esquemáticos.
+- `/sim`: Archivos de simulación.
+
+## 📊 Resultados
+El robot logra una autonomía de movimiento en terrenos irregulares gracias a su diseño de tracción oruga y una respuesta en tiempo real a los comandos del joystick.
